@@ -1,16 +1,10 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
 .wheel {
   border: 2px solid black;
   border-radius: 50%;
-  position: relative;
-  width: 50%;
+  margin-left: 50px;
+  position: absolute;
+  height: 55vw;
+  width: 55vw;
   max-width: 500px;
   max-height: 500px;
   animation-name: wheel;
